@@ -1,0 +1,16 @@
+<div style="text-align:center">
+<h2>Register Page</h2>
+<form [formGroup]="registerForm">
+<input formControlName="first_name" type="text" placeholder="firstname">
+<div></div>
+<input formControlName="last_name" type="text" placeholder="lastname">
+<div></div>
+<input formControlName="email" type="text" placeholder="email">
+<div></div>
+<input formControlName="password" type="text" placeholder="password">
+<div></div>
+<button (click)="register()" >Register</button>
+</form>
+<div></div>
+<button (click)="moveToLogin()">Login</button>
+</div>

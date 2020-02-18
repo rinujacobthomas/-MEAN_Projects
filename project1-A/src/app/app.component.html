@@ -1,0 +1,11 @@
+<nav>
+<ul>
+  <li><a [routerLink]="['/demo']">demo</a></li>
+  <li><a [routerLink]="['/login']">login</a></li>
+  <li><a [routerLink]="['/register']">register</a></li>
+  <li><a [routerLink]="['/user']">userpage</a></li>
+  <li><a href="#" (click)="logout()">logout</a></li>
+
+</ul>
+</nav>
+<router-outlet></router-outlet>
